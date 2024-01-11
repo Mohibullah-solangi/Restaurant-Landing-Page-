@@ -36,26 +36,40 @@ h2 {
 
 header {
     background-color: var(--dark-gray);
-    padding: 0 110px;
+    padding: 0 60px;
 }
 
 nav p {
 
     color: white;
-    padding: 0 20px;
+    padding-left: 36px;
 }
 
 ul li {
     list-style: none;
     color: white;
-    padding: 0 20px;
+    padding: 0 36px;
+}
+ul{
+    margin-left: -32px;
+}
+ul li:first-child{
+    margin-left: -32px;
+}
+.banner {
+    background: url(../images/Main-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: 30%;
+    height: 796px;
+    width: 1010px;
+    padding: 280px 380px 250px 230px;
 }
 
-/* section{
-    padding: 110px;
-} */
-.banner {
-    left: 30%;
+.Main-dish > h1{
+    font-family: 'Grand Hotel', cursive;
+    font-size: 40px;
+    color: var(--yellow);
 }
 
 .best-seller {
@@ -91,7 +105,7 @@ button {
 }
 
 .Statistics {
-    background: url(../images/Untitled-1.jpg);
+    background: url(../images/Statistics.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 180px;
