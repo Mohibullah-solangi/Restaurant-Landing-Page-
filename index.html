@@ -22,7 +22,7 @@
 <body>
 
     <!-- Header -->
-    <header class="d-flex flex-row justify-content-between">
+    <header class="d-flex flex-row justify-content-between position-absolute">
         <div>
             <img src="./images/Logo.png" alt="">
         </div>
@@ -34,7 +34,7 @@
                 <li>About</li>
                 <li>Contact</li>
             </ul>
-            <p>Search</p>
+            <img src="./images/Search.png" alt="" height="30px">
         </nav>
     </header>
 
@@ -42,25 +42,27 @@
     <div class="d-flex position-relative">
         <img src="./images/banner.jpg" alt="">
 
+        <img class="position-absolute plain-banner" src="./images/Banner-Plain.png" alt="">
+
 
         <!-- Main Title -->
         <section class=" banner position-absolute">
-
+           
             <div class="Main-dish">
                 <h1>Title Here</h1>
                 <p class="text-wrap">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam quos excepturi,
                     repellat iusto est quidem dolore ipsa explicabo hic et doloribus fugit pariatur dolorem eveniet
                     soluta beatae nam. Nisi, itaque.</p>
                 <button class="btn btn-warning"> ORDER NOW </button>
+                
             </div>
-
-
+        
         </section>
 
     </div>
 
     <!-- Best Sellers -->
-    <section class="my-4 d-flex flex-column align-items-center text-center">
+    <section class="my-4 d-flex flex-column align-items-center text-center Best-Seller">
         <h3>Best Seller</h3>
         <p class="best-seller text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit fuga distinctio
             ipsum est quod placeat fugit,
@@ -86,8 +88,8 @@
     </section>
 
     <!-- Oriental Taste -->
-    <section class="mt-4 d-flex justify-content-around text-center Oriental">
-        <img class="Main-dish1" src="./images/Main-dish1.jpg" alt="">
+    <section class="mt-4 d-flex justify-content-around Oriental">
+        <img class="Main-dish1" src="./images/Main-dish1.jpg" alt="" height="460px">
         <div class="Main-dish">
             <h2>Oriental Taste</h2>
             <p class="text-wrap">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores sapiente
@@ -99,12 +101,15 @@
 
     <!-- Statistics -->
     <section class="text-center Statistics">
-
-        <h2 class="py-3">Statistics</h2>
-        <p class="text-wrap py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores sapiente
-            consectetur
-            quas provident
-            consequatur consequuntur.</p>
+ 
+        <div class="stat-Title">
+            <h2 class="py-3">Statistics</h2>
+            <p class="text-wrap">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores sapiente
+                consectetur
+                quas provident
+                consequatur consequuntur.</p>
+        </div>
+        
         <div id="Key-numbers" class="d-flex justify-content-between">
             <div>123 <h5>OUTLETS</h5>
             </div>
@@ -119,7 +124,7 @@
     </section>
 
     <!-- Chicken Grill -->
-    <section class="mb-4 d-flex justify-content-around text-center Grill">
+    <section class="d-flex justify-content-around Grill">
 
         <div class="Main-dish">
             <h2>Chicken Grill</h2>
@@ -128,16 +133,16 @@
                 consequatur consequuntur.</p>
             <button class="btn btn-warning"> ORDER NOW </button>
         </div>
-        <img class="Main-dish1" src="./images/main-dish2.jpg" alt="">
+        <img class="Main-dish1" src="./images/main-dish2.jpg" alt="" height="460px">
     </section>
 
     <!-- Lenora Fields -->
     <section class="Lenora d-flex align-items-center justify-content-center text-center">
         <div>
 
-            <p class="text-wrap">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores sapiente
+            <h3 id="Field-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores sapiente
                 consectetur quas provident
-                consequatur consequuntur.</p>
+                consequatur consequuntur.</h3>
             <h2>Lenora Fields</h2>
         </div>
     </section>
@@ -162,15 +167,22 @@
     <!-- Footer -->
     <footer class="d-flex align-items-start justify-content-start text-white">
 
-        <div>
+        <div id="footer-title">
             <h5>TITLE HERE </h5>
             <p class="text-wrap">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores temporibus deserunt
                 odit tenetur
                 assumenda, soluta consequuntur fuga cupiditate nulla veniam, similique quisquam nam voluptatem voluptas?
             </p>
+            <div class="d-flex justify-content-start social">
+                <img src="./images/Instagram.png" alt="">
+                <img src="./images/Facebook.png" alt="">
+                <img src="./images/Twitter.png" alt="">
+                <img src="./images/Whatsapp.png" alt="">
+            
+            </div>
         </div>
         <div>
-            <h5 class="ps-5">ABOUT</h5>
+            <h5>ABOUT</h5>
             <ul>
                 <li>History</li>
                 <li>Our Team</li>
@@ -181,7 +193,7 @@
 
         </div>
         <div>
-            <h5 class="ps-5">SERVICES</h5>
+            <h5>SERVICES</h5>
             <ul>
                 <li>How To Order</li>
                 <li>Our Products</li>
@@ -192,7 +204,7 @@
 
         </div>
         <div>
-            <h5 class="ps-5">OTHER</h5>
+            <h5>OTHER</h5>
             <ul>
                 <li>Contact Us</li>
                 <li>Help</li>
